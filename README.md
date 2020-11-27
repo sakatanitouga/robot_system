@@ -22,10 +22,10 @@ $sudo insmod myled.ko
 と入力して作ったデバイスファイルに反映をさせる  
 その後ラズパイ3の24,25,26番のgpioピンにLEDのアノードをつなげていきカソード部分はGNDにつなげる  
 ## 実際に使用方法
-sudo chmod 666 /dev/myled0　  
+$sudo chmod 666 /dev/myled0　  
 を入力して権限を与え  
-echo 1 >> /dev/myled0  
+$echo 1 >> /dev/myled0  
 で2進数の1の部分が光ります！  
-echo 7 >> /dev/myled0  
+$echo 7 >> /dev/myled0  
 で2進数の7の部分が光ります！  
 0~7までの数字を入力して2進数を感じてみてください！  
