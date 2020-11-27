@@ -5,7 +5,7 @@
 
 # 使用方法
 ## 初期設定
-LinuxOSのコマンドプロント上で
+LinuxOSのコマンドプロント上で  
 $git clone https://github.com/sakatanitouga/robot_system.git  
 と入力してファイルをcloneしておく  
 $make  
