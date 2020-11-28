@@ -19,7 +19,7 @@ $sudo mknod 666 /dev/myled0 c メイジャー番号 0
   
 $sudo rmmod myled  
 $sudo insmod myled.ko  
-と入力して作ったデバイスファイルに反映をさせる  
+と入力して作ったデバイスファイルに反映させる  
 その後ラズパイ3の24,25,26番のgpioピンにLEDのアノードをつなげていきカソード部分はGNDにつなげる  
 ## 実際に使用方法
 $sudo chmod 666 /dev/myled0　  
