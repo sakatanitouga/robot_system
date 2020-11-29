@@ -29,5 +29,7 @@ $echo 1 >> /dev/myled0
 $echo 7 >> /dev/myled0  
 で2進数の7の部分が光ります！  
 0~7までの数字を入力して2進数を感じてみてください！  
+  
+    
   動かしている動画  
 https://www.youtube.com/watch?v=h0Md8hhAn4k
